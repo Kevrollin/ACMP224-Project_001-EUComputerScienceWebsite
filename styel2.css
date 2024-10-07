@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo{
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    background-image: url(download\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 330px;
+    padding: 20px;
+    font-size: 20px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.logo p{
+    color: rgb(233, 96, 5);
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.logo a{
+    
+}
+span{
+    color: rgb(94, 18, 18);
+}
+
+.navbar{
+    background-color: green;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+.navbar ul li{
+    font-weight: 800;
+    font-size: 20px;
+    transition: .1s ease;
+    color: rgb(22, 22, 22);
+}
+.navbar ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(160, 3, 3);
+    cursor: pointer;
+}
+.box{
+    border: 5px solid rgb(236, 26, 11);
+    height: 190px;
+    margin: 20px;
+}
+.box2{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 20px;
+}
+.box2 p{
+    background-color: rgb(207, 8, 24);
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+
+.sizeA{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10PX;
+    background-color: rgb(15, 114, 32);
+}
+.sizeA h3{
+    color: red;
+}
+.sizeA button{
+    padding: 5px;
+    transition: .1s ease;
+    border-radius: 10px;
+}
+.sizeA h5{
+    padding: 20px;
+}
+
+.sizeA button:hover{
+    background-color: greenyellow;
+    color: red;
+    cursor: pointer;
+}
+.sizeA img{
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+}
+
+.sizeB{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10PX;
+    background-color: rgb(15, 114, 32);
+}
+.sizeB img{
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+}
+.sizeB h5{
+    padding: 20px;
+}
+.sizeB h3{
+    color: red;
+}
+.sizeB button{
+    padding: 5px;
+    transition: .1s ease;
+    border-radius: 10px;
+}
+
+.sizeB button:hover{
+    background-color: greenyellow;
+    color: red;
+    cursor: pointer;
+}
+
+.sizeC{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10PX;
+    background-color: rgb(15, 114, 32);
+}
+.sizeC img{
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+}
+.sizeC h5{
+    padding: 20px;
+}
+.sizeC h3{
+    color: red;
+}
+.sizeC button{
+    padding: 5px;
+    transition: .1s ease;
+    border-radius: 10px;
+}
+
+.sizeC button:hover{
+    background-color: greenyellow;
+    color: red;
+    cursor: pointer;
+}
+
+.art-cap{
+    text-align: center;
+    margin: 20px;
+}
+
+.articles{
+    padding: 10px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 20px;
+    gap: 10px;
+}
+.Button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(44, 158, 40);
+    font-size: 15px;
+    font-weight: 900;
+    transition: .1s ease;
+    margin: 20px;
+    justify-content: center;
+}
+.Button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.article1{
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    text-wrap: wrap;
+}
+.float{
+    padding: 1em;
+    float: left;
+}
+.float img{
+    height: 70px;
+    border-radius: 10px;
+}
+
+
+.article2{
+    border-radius: 10px;
+    padding: 10px;
+    column-count: 2;
+    column-rule: 4px dotted #161515;
+}
+.pos{
+    position: sticky;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(69, 129, 67);
+    font-size: 15px;
+    font-weight: 900;
+    transition: .1s ease;
+    margin: 20px;
+    justify-content: center;
+    bottom: 30px;
+    right: 30px:
+}
+.pos:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.float2{
+    padding: 1em;
+    float: left;
+}
+.float2 img{
+    height: 70px;
+    border-radius: 10px;
+}
+.article3{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.containerd {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer ul li a:hover{
+    color: rgb(247, 1, 1);
+    cursor: pointer;
+  }
+  span{
+    color: red;
+  }
